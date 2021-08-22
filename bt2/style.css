@@ -29,7 +29,7 @@ header .container {
 	height: 65px;
 }
 header .logo {
-	width: 25%;
+	width: 20%;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -37,7 +37,7 @@ header .logo a {
 	color: #3cb878;
 }
 header .menu {
-	width: 60%;
+	width: 65%;
 
 }
 header .menu ul {
