@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: normal;
 }
 body {
 	font-size: 1rem;
@@ -206,13 +207,14 @@ ul.product-list .buy a:nth-child(3) {
 #promotion ul {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
 #promotion ul li {
 	max-width: 30%;
 	text-align: center;
 	display: block;
 	padding: 40px 0px;
-	margin-bottom: 20px;
+	
 }
 #promotion ul li:nth-child(2) {
 	background-color: #34394f;
