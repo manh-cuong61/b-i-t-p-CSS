@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Rotobo';
+	font-size: 1.2rem;
+}
+
+header {
+	max-width: 1140px;
+	margin: 0 auto;
+
+}
+header div.logo {
+	float: left;
+	width: 30%;
+	padding-left: 50px;
+}s
+
+header div.slogan {
+	float: left;
+	width: 70%;
+	min-height: 160px;
+}
+header div.slogan h2 {
+	line-height: 160px;
+	color: #f16b22;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+
+}
+header div.logo img {
+	width: 70%;
+	height: 160px;
+
+}
+
+nav	{
+	max-width: 1140px;
+	margin: 0 auto;
+	clear: left;
+	background-color: green;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 55px;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 80px;
+	;
+}
+nav ul li a {
+	line-height: 55px;
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+main div.main-left {
+	float: left;
+	width: 70%;
+}
+main div.main-right {
+	float: left;
+	width: 30%;
+}
+main div.main-left div.content {
+	clear: left;
+}
+main div.main-right img {
+	width: 100%;
+	margin-top: 18px;
+}
+main div.main-left div.left {
+	float: left;
+	width: 40%;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+main div.main-left div.right {
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+	padding-top: 0px;
+}
+main div.main-left div.left img {
+	width:100% ;
+}
+footer {
+	max-width: 1140px;
+	margin: 0 auto;
+	clear: left;
+}
+footer div	{
+	background-color: #0c550c;
+	height: 70px;
+}
+footer div h3 {
+	line-height: 70px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: white;
+}
+main div.date {
+	margin-top: 18px;
+}
+main div.date span {
+	margin-right: 20px;
+}
