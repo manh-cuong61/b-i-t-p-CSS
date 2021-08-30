@@ -151,12 +151,14 @@
 	#brand .brands ul li:nth-child(4) a {
     background-position: -645px;
 	}
-
+	footer {
+		width: 100%;
+	}
 	footer .f-left {
 		display: none;
 	}
 	footer .f-right ul a {
-		width: 66px;
+		width: 65px;
 	}
 	footer .f-right ul li:nth-child(4) a {
     background-position: -172px;
