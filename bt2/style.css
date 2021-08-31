@@ -37,7 +37,7 @@ header .logo a {
 	color: #3cb878;
 }
 header .menu {
-	width: 65%;
+	width: 77%;
 
 }
 header .menu ul {
@@ -116,11 +116,16 @@ ul.product-list {
 	display: block;
 	position: relative;
 	margin-bottom: 45px;
+	transition: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 ul.product-list li.introduce {
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
+}
+ul.product-list li.introduce:hover {
+	transform: none;
 }
 li.introduce h2 {
 	text-transform: uppercase;
@@ -142,6 +147,10 @@ ul.product-list li.introduce p {
 }
 ul.product-list li img {
 	max-width: 225px;
+	cursor: pointer;
+}	
+ul.product-list li:hover {
+	transform: scale(1.1);
 }
 ul.product-list li a {
 	font-size: 1rem;
@@ -278,11 +287,13 @@ ul.product-list .buy a:nth-child(3) {
 	color: white;
 	padding: 7px;
 	border: none;
+	cursor: pointer;
 }
 #brand .discount input {
 	width: 250px;
 	padding: 7px;
 	border: none;
+	margin-bottom: 5px;
 }
 #brand .brands {
 	background: #f5f6f9;
