@@ -150,7 +150,7 @@ ul.product-list li img {
 	cursor: pointer;
 }	
 ul.product-list li:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 ul.product-list li a {
 	font-size: 1rem;
