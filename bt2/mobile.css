@@ -1,12 +1,16 @@
 @media only screen and (max-width: 768px){
-	header .menu {
-    	display: none;
-	}
 	
 	header .logo, .sidebar-top {
 		width: 50%;
 	}
-
+	header .menu ul li a {
+		text-transform: capitalize;
+		padding-right: 2px;
+	}
+	header .logo {
+		margin-left: 2px;
+		font-size: 13px;
+	}
 	header .sidebar-top {
     display: flex;
     justify-content: flex-end;
@@ -29,7 +33,7 @@
 	.slider-item h2 {
     top: 32%;
     left: 6%;
-    font-size: 16px;
+    font-size: 39px;
     letter-spacing: 3px;
 	}
 
@@ -40,7 +44,8 @@
 	ul.product-list li {
 		max-width: 46%;
 		margin-bottom: 8px;
-		margin-right: 6px;
+		margin-right: 22px;
+		margin-left: 12px;
 		text-align: center;
 	}
 	ul.product-list li.introduce{
@@ -48,15 +53,20 @@
 		text-align: center;
 		margin-bottom: 14px;
 	}
-	ul.product-list li.introduce h2 {
-		font-size: 20px;
-	}
+	
 	li.introduce small {
 		margin-top: 1px;
+		font-size: 16px;
+	}
+	ul.product-list li a {
+		font-size: 1.3rem;
+	}
+	ul.product-list p {
+		font-size: 24px;
 	}
 	ul.product-list li.introduce p {
     max-width: 100%;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 4px;
     text-align: center;
     padding-left: 10px;
@@ -183,7 +193,44 @@
 }
 
 
+
+
+
 @media only screen and (max-width: 600px) {
+
+	header .menu {
+    	display: none;
+	}
+	header .logo {
+		margin-left:unset;
+		font-size: 13px;
+	}
+	.slider-item h2 {
+		font-size: 16px;
+	}
+	
+	ul.product-list li.introduce h2 {
+		font-size: 20px;
+	}
+	ul.product-list li a {
+		font-size: 1rem;
+	}
+	ul.product-list p {
+		font-size: unset;
+	}
+	ul.product-list li.introduce small {
+		font-size: 10px;
+	}
+	ul.product-list li.introduce p {
+		font-size: 10px;
+	}
+	#featured-product h2 {
+		font-size: 20px;
+	}
+	ul.product-list li {
+		margin-right: 6px;
+		margin-left: unset;
+	}
 	footer .f-right ul a {
 		width: 65px;
 	}
