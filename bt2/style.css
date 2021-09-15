@@ -123,6 +123,7 @@ ul.product-list li.introduce {
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 }
 ul.product-list li.introduce:hover {
 	transform: none;
@@ -149,8 +150,9 @@ ul.product-list li img {
 	max-width: 225px;
 	cursor: pointer;
 }	
-ul.product-list li:hover {
+ul.product-list li:hover img{
 	transform: scale(1.05);
+	transition-duration: 0.5s;
 }
 ul.product-list li a {
 	font-size: 1rem;
